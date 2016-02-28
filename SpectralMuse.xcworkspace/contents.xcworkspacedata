@@ -8,6 +8,9 @@
       location = "group:SpectralMuseIOS/SpectralMuseIOS.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SpectralMuseResources">
+   </FileRef>
+   <FileRef
       location = "group:Carthage">
    </FileRef>
 </Workspace>

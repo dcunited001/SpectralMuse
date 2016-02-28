@@ -7,11 +7,24 @@
 //
 
 import Cocoa
+import MetalKit
+import Metal
+import ModelIO
+import Spectra
+import Swinject
+
+//class SpectraManager {
+    // TODO: maybe use a singleton pattern?
+    
+//    class func readDescriptors() -> DescriptorManager {
+//        
+//    }
+//    
+//    static let descriptors: DescriptorManager = SpectraManager.readDescriptors()
+//}
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application

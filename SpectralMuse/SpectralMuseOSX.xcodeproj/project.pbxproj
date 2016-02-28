@@ -21,6 +21,8 @@
 		430708411C828B670099AD80 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4307083F1C828B670099AD80 /* Metal.framework */; };
 		430708421C828B670099AD80 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430708401C828B670099AD80 /* MetalKit.framework */; };
 		4307085D1C828F630099AD80 /* Spectra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4307085C1C828F630099AD80 /* Spectra.framework */; };
+		430708731C829ECC0099AD80 /* DefaultPipeline.xml in Resources */ = {isa = PBXBuildFile; fileRef = 430708721C829ECC0099AD80 /* DefaultPipeline.xml */; };
+		430708751C829ED10099AD80 /* SpectralMuse.metal in Sources */ = {isa = PBXBuildFile; fileRef = 430708741C829ED10099AD80 /* SpectralMuse.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		4307083F1C828B670099AD80 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		430708401C828B670099AD80 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		4307085C1C828F630099AD80 /* Spectra.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spectra.framework; path = ../SpectralMuseIOS/Spectra.framework; sourceTree = "<group>"; };
+		430708721C829ECC0099AD80 /* DefaultPipeline.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DefaultPipeline.xml; path = ../../SpectralMuseResources/DefaultPipeline.xml; sourceTree = "<group>"; };
+		430708741C829ED10099AD80 /* SpectralMuse.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = SpectralMuse.metal; path = ../../SpectralMuseResources/SpectralMuse.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 		430707E21C827E870099AD80 /* SpectralMuse */ = {
 			isa = PBXGroup;
 			children = (
+				430708711C829EB40099AD80 /* SpectraMuseResources */,
 				430707E31C827E870099AD80 /* AppDelegate.swift */,
 				430707E51C827E870099AD80 /* ViewController.swift */,
 				430707E71C827E870099AD80 /* Assets.xcassets */,
@@ -136,6 +141,15 @@
 				430707F71C827E870099AD80 /* Info.plist */,
 			);
 			path = SpectralMuseUITests;
+			sourceTree = "<group>";
+		};
+		430708711C829EB40099AD80 /* SpectraMuseResources */ = {
+			isa = PBXGroup;
+			children = (
+				430708721C829ECC0099AD80 /* DefaultPipeline.xml */,
+				430708741C829ED10099AD80 /* SpectralMuse.metal */,
+			);
+			name = SpectraMuseResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				430707E81C827E870099AD80 /* Assets.xcassets in Resources */,
+				430708731C829ECC0099AD80 /* DefaultPipeline.xml in Resources */,
 				430707EB1C827E870099AD80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +256,7 @@
 			files = (
 				430707E61C827E870099AD80 /* ViewController.swift in Sources */,
 				430707E41C827E870099AD80 /* AppDelegate.swift in Sources */,
+				430708751C829ED10099AD80 /* SpectralMuse.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +379,7 @@
 					"$(PROJECT_DIR)/../Carthage/Build/Mac",
 					"$(PROJECT_DIR)IOS",
 				);
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = SpectralMuse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spectra.SpectralMuse;
@@ -379,6 +396,7 @@
 					"$(PROJECT_DIR)/../Carthage/Build/Mac",
 					"$(PROJECT_DIR)IOS",
 				);
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = SpectralMuse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spectra.SpectralMuse;
