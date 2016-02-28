@@ -1,0 +1,3 @@
+framework module Spectra {
+    header "Spectra-Swift.h"
+}

@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SpectralMuse/SpectralMuse.xcodeproj">
+      location = "group:/Users/dc/dev/apple/SpectralMuse/SpectralMuse/SpectralMuseOSX.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SpectralMuseIOS/SpectralMuseIOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage">
    </FileRef>
 </Workspace>

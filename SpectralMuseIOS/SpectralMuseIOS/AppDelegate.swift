@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import Fuzi
+import MetalKit
+import Metal
+import ModelIO
+import Spectra
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

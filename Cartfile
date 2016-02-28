@@ -1,0 +1,3 @@
+github "cezheng/Fuzi"
+github "Swinject/Swinject" ~> 1.1.0
+github "dcunited001/SpectraNu" "b801f50da1231c81b8977a409fe8643285729786"

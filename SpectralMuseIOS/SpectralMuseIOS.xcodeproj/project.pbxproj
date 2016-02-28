@@ -13,6 +13,11 @@
 		430707BF1C827CAC0099AD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430707BE1C827CAC0099AD80 /* Assets.xcassets */; };
 		430707C21C827CAC0099AD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430707C01C827CAC0099AD80 /* LaunchScreen.storyboard */; };
 		430707CD1C827CAC0099AD80 /* SpectralMuseIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430707CC1C827CAC0099AD80 /* SpectralMuseIOSUITests.swift */; };
+		430708451C828C3D0099AD80 /* Fuzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430708431C828C3D0099AD80 /* Fuzi.framework */; };
+		430708461C828C3D0099AD80 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430708441C828C3D0099AD80 /* Swinject.framework */; };
+		430708531C828DCD0099AD80 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430708491C828D140099AD80 /* Metal.framework */; };
+		430708541C828DCD0099AD80 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4307084A1C828D140099AD80 /* MetalKit.framework */; };
+		430708551C828DCD0099AD80 /* ModelIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430708471C828D040099AD80 /* ModelIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		430707C81C827CAC0099AD80 /* SpectralMuseIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectralMuseIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		430707CC1C827CAC0099AD80 /* SpectralMuseIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectralMuseIOSUITests.swift; sourceTree = "<group>"; };
 		430707CE1C827CAC0099AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430708431C828C3D0099AD80 /* Fuzi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fuzi.framework; path = ../Carthage/Build/iOS/Fuzi.framework; sourceTree = "<group>"; };
+		430708441C828C3D0099AD80 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = ../Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		430708471C828D040099AD80 /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
+		430708491C828D140099AD80 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		4307084A1C828D140099AD80 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430708451C828C3D0099AD80 /* Fuzi.framework in Frameworks */,
+				430708461C828C3D0099AD80 /* Swinject.framework in Frameworks */,
+				430708531C828DCD0099AD80 /* Metal.framework in Frameworks */,
+				430708541C828DCD0099AD80 /* MetalKit.framework in Frameworks */,
+				430708551C828DCD0099AD80 /* ModelIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,11 @@
 		430707AB1C827CAC0099AD80 = {
 			isa = PBXGroup;
 			children = (
+				430708491C828D140099AD80 /* Metal.framework */,
+				4307084A1C828D140099AD80 /* MetalKit.framework */,
+				430708471C828D040099AD80 /* ModelIO.framework */,
+				430708431C828C3D0099AD80 /* Fuzi.framework */,
+				430708441C828C3D0099AD80 /* Swinject.framework */,
 				430707B61C827CAC0099AD80 /* SpectralMuseIOS */,
 				430707CB1C827CAC0099AD80 /* SpectralMuseIOSUITests */,
 				430707B51C827CAC0099AD80 /* Products */,
@@ -106,6 +126,7 @@
 				430707B01C827CAC0099AD80 /* Sources */,
 				430707B11C827CAC0099AD80 /* Frameworks */,
 				430707B21C827CAC0099AD80 /* Resources */,
+				430708161C8288090099AD80 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +167,7 @@
 				TargetAttributes = {
 					430707B31C827CAC0099AD80 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9BEFZNJ575;
 					};
 					430707C71C827CAC0099AD80 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -191,6 +213,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		430708161C8288090099AD80 /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/Fuzi.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/Swinject.framework",
+				"$(SRCROOT)/Spectra.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		430707B01C827CAC0099AD80 /* Sources */ = {
@@ -327,6 +369,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = SpectralMuseIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spectra.SpectralMuseIOS;
@@ -338,6 +382,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = SpectralMuseIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spectra.SpectralMuseIOS;
@@ -388,6 +434,7 @@
 				430707D31C827CAC0099AD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		430707D41C827CAC0099AD80 /* Build configuration list for PBXNativeTarget "SpectralMuseIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +443,7 @@
 				430707D61C827CAC0099AD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

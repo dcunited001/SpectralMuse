@@ -1,0 +1,5 @@
+github "cezheng/Fuzi" "0.3.0"
+github "Quick/Nimble" "v3.1.0"
+github "Quick/Quick" "v0.8.0"
+github "Swinject/Swinject" "1.1.0"
+github "dcunited001/SpectraNu" "b801f50da1231c81b8977a409fe8643285729786"

@@ -1,0 +1,79 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A4ECC42EEF295102A630B3AF2C73172BDCEEA0BC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64" : 0,
+    "A78B45A85CFCBB83EE989C9075E716FC25610219" : 0,
+    "95438028B10BBB846574013D29F154A00556A9D1" : 0,
+    "9D6FF97A89F512CD81EAE1A971A1D2EB03E03F7C" : 0,
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : 0,
+    "A4ECC42EEF295102A630B3AF2C73172BDCEEA0BC" : 0,
+    "9C687336314754AFCA9265A68AC9A2D144EDEAD9" : 0,
+    "A7FB94794D37B7728F6B46975BE5E9D999585A35" : 0,
+    "9A76F17C6068412484158A754CBD274391008322" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "335F4215-84AD-42F4-80BE-9E141B424ED3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64" : "SpectralMuse\/Carthage\/Checkouts\/Quick\/",
+    "A78B45A85CFCBB83EE989C9075E716FC25610219" : "SpectralMuse\/Carthage\/Checkouts\/SpectraNu\/",
+    "95438028B10BBB846574013D29F154A00556A9D1" : "SpectralMuse\/Carthage\/Checkouts\/Nimble\/",
+    "9D6FF97A89F512CD81EAE1A971A1D2EB03E03F7C" : "SpectralMuse\/Carthage\/Checkouts\/SpectraNu\/Carthage\/Checkouts\/EZAudio\/",
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : "SpectralMuse\/Carthage\/Checkouts\/Swinject\/Carthage\/Checkouts\/xcconfigs\/",
+    "A4ECC42EEF295102A630B3AF2C73172BDCEEA0BC" : "SpectralMuse\/",
+    "9C687336314754AFCA9265A68AC9A2D144EDEAD9" : "SpectralMuse\/Carthage\/Checkouts\/Swinject\/",
+    "A7FB94794D37B7728F6B46975BE5E9D999585A35" : "SpectralMuse\/Carthage\/Checkouts\/Fuzi\/",
+    "9A76F17C6068412484158A754CBD274391008322" : "SpectralMuse\/Carthage\/Checkouts\/SpectraNu\/Carthage\/Checkouts\/Ono\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SpectralMuse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SpectralMuse.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Nimble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95438028B10BBB846574013D29F154A00556A9D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mattt\/Ono.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A76F17C6068412484158A754CBD274391008322"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Swinject\/Swinject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C687336314754AFCA9265A68AC9A2D144EDEAD9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/syedhali\/EZAudio.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9D6FF97A89F512CD81EAE1A971A1D2EB03E03F7C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:dcunited001\/SpectralMuse",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4ECC42EEF295102A630B3AF2C73172BDCEEA0BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dcunited001\/SpectraNu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A78B45A85CFCBB83EE989C9075E716FC25610219"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cezheng\/Fuzi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7FB94794D37B7728F6B46975BE5E9D999585A35"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Quick.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jspahrsummers\/xcconfigs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7"
+    }
+  ]
+}
