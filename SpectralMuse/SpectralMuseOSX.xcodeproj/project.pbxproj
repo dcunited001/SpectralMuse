@@ -23,6 +23,7 @@
 		4307085D1C828F630099AD80 /* Spectra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4307085C1C828F630099AD80 /* Spectra.framework */; };
 		430708731C829ECC0099AD80 /* DefaultPipeline.xml in Resources */ = {isa = PBXBuildFile; fileRef = 430708721C829ECC0099AD80 /* DefaultPipeline.xml */; };
 		430708751C829ED10099AD80 /* SpectralMuse.metal in Sources */ = {isa = PBXBuildFile; fileRef = 430708741C829ED10099AD80 /* SpectralMuse.metal */; };
+		430708771C82A0200099AD80 /* MuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430708761C82A0200099AD80 /* MuseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		4307085C1C828F630099AD80 /* Spectra.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spectra.framework; path = ../SpectralMuseIOS/Spectra.framework; sourceTree = "<group>"; };
 		430708721C829ECC0099AD80 /* DefaultPipeline.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DefaultPipeline.xml; path = ../../SpectralMuseResources/DefaultPipeline.xml; sourceTree = "<group>"; };
 		430708741C829ED10099AD80 /* SpectralMuse.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = SpectralMuse.metal; path = ../../SpectralMuseResources/SpectralMuse.metal; sourceTree = "<group>"; };
+		430708761C82A0200099AD80 /* MuseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				430708711C829EB40099AD80 /* SpectraMuseResources */,
 				430707E31C827E870099AD80 /* AppDelegate.swift */,
 				430707E51C827E870099AD80 /* ViewController.swift */,
+				430708761C82A0200099AD80 /* MuseViewController.swift */,
 				430707E71C827E870099AD80 /* Assets.xcassets */,
 				430707E91C827E870099AD80 /* Main.storyboard */,
 				430707EC1C827E870099AD80 /* Info.plist */,
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430708771C82A0200099AD80 /* MuseViewController.swift in Sources */,
 				430707E61C827E870099AD80 /* ViewController.swift in Sources */,
 				430707E41C827E870099AD80 /* AppDelegate.swift in Sources */,
 				430708751C829ED10099AD80 /* SpectralMuse.metal in Sources */,
