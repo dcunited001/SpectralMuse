@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Fuzi
+
 import MetalKit
 import Metal
 import ModelIO
